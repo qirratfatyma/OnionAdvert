@@ -10,7 +10,7 @@ import second from "../assets/img/second.png";
 import third from "../assets/img/third.png";
 import last from "../assets/img/last.png";
 import { Link } from "react-router-dom";
-import herovideo from "../assets/video/herovideo.mp4";
+import hv from "../assets/video/hv.mp4";
 
 const Herosection = () => {
   return (
@@ -20,11 +20,11 @@ const Herosection = () => {
         <div className="container">
           <div className="row g-2">
             <div className="col-sm-12 col-lg-6 col-md-6">{
-            <video width="450" loop autoPlay muted className="main-video">
-            <source src={herovideo} type="video/mp4" />
+            <video width="550" loop autoPlay muted className="main-video">
+            <source src={hv} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-};          
+}     
             </div>
             <div className="col-sm-12 col-lg-6 col-md-6 Hero-text" >
               <br></br>
@@ -35,8 +35,8 @@ const Herosection = () => {
                 Power up your brand with top social media marketing agency in Pakistan
               </p>
               <button type="submit" className="btn navbar-btn">
-            Sign Up
-          </button>
+                Get Started
+              </button>
             </div>
           </div>
         </div>
